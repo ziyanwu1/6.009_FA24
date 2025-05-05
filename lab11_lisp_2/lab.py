@@ -375,6 +375,8 @@ def begin(*args):
     # all args passed in are already evaluated, so we only need to return the last item
     return args[-1]
 
+## the below functions aren't needed, as in test_files/map_filter_reduce.scm, the test cases define the map, filter, and reduce functions for us
+
 # def map(*args):
 #     f = args[0]
 #     l = args[1]
